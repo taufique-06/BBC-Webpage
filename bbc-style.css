@@ -1,0 +1,371 @@
+#topbar{
+		    width: 1250px;
+			height:40px;
+			margin: 0px auto;
+		}
+	  
+	  body{
+	  margin:0;
+	  padding:0;
+	  font-family: ReithSans, Arial, Helvetica, freesans, sans-serif
+	  height: 100%;
+	 }
+	 
+	 #logo{
+	 margin-top: 8px;
+	 width: 85px;
+	 float: left;
+	 margin-right: 2px;
+	 }
+	 
+	 .topbar-section{
+	     float:left;
+		 border-left: 1px #CCCCCC solid;
+		 height:100%;
+	 }
+     #sign{
+	 
+	 width: 25px;
+	 margin: 8px 15px;
+	 float:left;
+	 }
+    #text{
+	font-weight:bold;
+	font-size:90%;
+	position:relative;
+	top: 12px; 
+	float:left;
+	}
+
+	#text:hover{
+		border-bottom: 4px solid darkblue;
+		cursor: pointer;
+	}
+	
+	.topbar-menu:hover{
+		border-bottom: 4px solid yellow;
+		cursor: pointer;
+	}
+
+	.adding-hover:hover{
+		border-bottom: 4px solid purple;
+		cursor: pointer;
+	}
+
+	.adding-hover-one:hover{
+		border-bottom: 4px solid palegoldenrod;
+		cursor: pointer;
+	}
+
+	.adding-hover-two:hover{
+		border-bottom: 4px solid darkolivegreen;
+		cursor: pointer;
+	}
+
+	.staright-line{
+	float:left;
+	border-left: 1px #CCCCCC solid;
+	height:100%;
+	margin-left: 70px;
+	
+	}
+	#bell{
+	float:left;
+	width:40px;
+	margin: 8px 0px 0px 8px;
+	}
+	
+	.topbar-menu{
+	font-weight:bold;
+	font-size:90%;
+	float:left;
+	padding: 12px 15px 0px 15px;
+	height: 28px;
+	}
+	
+	#search-box{
+	background-color:#E4E4E4;
+	border:none;
+	font-weight: bold:
+	font-size: 14px;
+	padding: 5px;
+	margin: 5px 0px 5px 5px;
+	float:left;
+	}
+	
+	#magnifying-glass{
+	
+	height: 25px;
+	margin-top: 5px;
+	margin-left: 20px;
+	}
+	
+	.clear{
+	clear:both;
+	}
+	
+	#menu-bar-cointainer{
+	border-top: 1px solid #CCCCCC;
+	background-color:#BB1919;
+	width: 100%;
+	height:70px;
+	}
+	
+	#menu-bar{
+	width: 1250px;
+	margin: 0px auto;
+	}
+	
+	#news{
+	padding:0px;
+	margin:0px;
+	color:white;
+	font-weight:normal;
+	font-size: 40px;
+	padding-top: 12px;
+	float:left;
+	}
+	
+	#location{
+	width: 40px;
+	height:35px;
+	position:relative;
+	top: 1px;
+	}
+	
+	#local-news{
+	float:right;
+	border: 1px #BB4545 solid;
+	padding: 5px 5px 0 10px;
+	margin: 10px 10px 0 0;
+	font-size: 30px;
+	}
+	
+	/* This basically makes the link white */
+	#local-news a{
+	color:white;
+	text-decoration: none;
+	position:relative;
+	top: -8px;
+	}
+	
+	/* Hover has been used to get the underline under the link */
+	#local-news a:hover{
+     text-decoration:underline;
+	}
+	
+	#menu-bar-cointainer-2{
+	background-color: #A91717;
+	width:100%;
+	}
+	
+	#menu-bar-2{
+	width: 1020px;
+	margin: 0px auto;
+	height:40px;
+	}
+	
+	#menu-bar-2 a{
+	color: white;
+	text-decoration:none;
+	font-size: 14px;
+	padding: 0px 5px 2px 0;
+	margin-left: 5px;
+	border-right: 1px solid #BB4545;
+	position:relative;
+	top: 11px;
+	right: 124px;
+	}
+
+	#menu-bar-2>a:hover
+	{
+		border-bottom: 4px solid white;
+	}
+	
+	
+	.no-border{
+	border:none !important;
+	}
+
+	.no-border:hover{
+		border: 10px solid black;
+		background-color: black;
+	}
+
+	h2{
+		font-weight: normal;
+		color: #404040;
+		border-bottom: 3px solid #BB1919;
+		width: 130px;
+		margin: 10px 55px;
+	}
+	.left-side{
+	float: left;
+}
+
+	.left-big-image{
+		margin: 25px 20px 0px 55px;
+	}
+
+	.left-big-image-title {
+		margin: 10px 20px 0px 55px;
+		width: 470px;
+		/*border: 1px solid red;*/
+	}
+
+	.left-big-image-title>a{
+		text-decoration: none;
+		color: #7E6C65;
+		font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
+		font-size: 28px;
+		font-weight: 700;
+	}
+
+	.left-big-image-title>a:hover{
+		text-decoration: underline;
+		color: lightskyblue;
+	}
+
+	.left-big-image-sub-title{
+		color: #7E645F;
+		/*border: 1px solid red;*/
+		margin: -10px 20px 0px 55px;
+		width: 495px;
+	}
+
+	.left-big-image-time{
+		border: 1px solid white;
+		width: 150px;
+		margin: -20px 20px 0px 55px;
+		font-size: 15px;
+	}
+
+	.left-big-image-time a:not(.right-side-time) {
+		text-decoration: none;
+		color: #7E6C65;
+		border-left: 1px solid #CCCCCC;
+		padding-left: 10px;
+		margin-left: 10px;
+		position: relative;
+		top: -10px;
+	}
+
+	.left-big-image-time span{
+		position: relative;
+		top: -10px;
+	}
+
+	.left-big-image-time a:hover{
+	text-decoration:underline;
+	color:#1167a8;
+
+	}
+
+	.below-the-clock{
+		margin: 20px 0px 0px 30px;
+		/*border: 1px solid red;*/
+		width: 440px;
+	}
+
+	.below-the-clock a {
+		text-decoration: none;
+		font-size: 16px;
+		font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
+		color: #1E1E1E;
+		font-weight: 700;
+	}
+
+	.below-the-clock a:hover{
+		text-decoration: underline;
+		color: #1167a8;
+	}
+
+	.below-the-clock li {
+		margin-top: 10px;
+	}
+
+	#right-side{
+		float: left;
+		margin-top: 23px;
+	}
+
+	.flex {
+  display: flex;
+  width: 745px;
+  margin-right: 30px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /*align-content: space-between|space-around|flex-start|flex-end|center|stretch;*/
+  /*height: 500px;*/
+}
+
+.col {
+  flex-basis: 30%;
+  flex-shrink: 1;
+  color: #fff;
+  border: 1px solid white;
+  height: 295px;
+}
+
+.col:not(.item){
+	margin-left: 15px;
+}
+
+.col:not(.margins){
+	margin-top: 20px;
+}
+
+.flex a:not(.right-side-time){
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.flex a:hover{
+	text-decoration: underline;
+	color: #1167a8;
+	border: 1px dashed skyblue;
+}
+
+.col p {
+	color: #7E645F;
+}
+
+.right-side-time{
+	margin-left: 1px;
+}
+
+.positioning-the-first-one {
+	position: relative;
+	top: 18px;
+}
+
+.positioning-the-second-line{
+	position: relative;
+	top: 35px;
+}
+
+#one a{
+	font-size: 15px;
+	font-weight: normal;
+	color: #7E6C65;
+}
+
+
+#copy
+{
+	margin-top:750px;
+}
+
+
+
+
+
+
+
+
+
+
+
+	
